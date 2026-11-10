@@ -17,6 +17,26 @@ EdmundWong98 的个人 Loon / LoonLite 代理规则仓库。
 - [Twitch.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitch.list)
 - [规则索引 list.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/list.list)
 
+## 三大分类集合
+
+| 分类 | 覆盖平台 | Raw 订阅 |
+| --- | --- | --- |
+| 海外流媒体 | YouTube、Twitch、Netflix、HBO / Max | [OverseasStreaming.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasStreaming.list) |
+| 海外 AI | ChatGPT / Sora、Claude、GitHub / Microsoft Copilot、Gemini / Google AI，以及已有 Grok、Meta AI 域名 | [OverseasAI.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasAI.list) |
+| 海外社交软件 | Facebook、Instagram / Threads、Twitter / X、Telegram | [OverseasSocial.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasSocial.list) |
+
+集合基于仓库现有平台列表合并，逐条去重。Twitter 中的 `grok.com`，以及 Facebook 中的 `llama.com`、`meta.ai`、`metaaiusercontent.com`、`metaaivm.com`、`muse.ai` 归入 AI 集合。
+
+三分类导入条目见 [categories.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/categories.list)。可将三条规则的策略分别绑定到流媒体、AI、社交策略组。导入时采用 AI、流媒体、社交的顺序，然后再放置 Google 等综合规则和国内直连规则。社交集合继承 Facebook 的宽泛域名和 ASN 规则，规则顺序会影响重叠请求的分类。
+
+更新单平台列表后，在仓库根目录执行以下命令重新生成集合和分类索引。
+
+```sh
+python3 scripts/build_collections.py
+```
+
+集合包含来源列表中的辅助登录、遥测、共享 CDN 和 IP 规则。集合覆盖范围以表内平台为准，具体账号、节点与地区可用性按客户端实际结果验证。
+
 仓库为 public，raw 地址支持匿名订阅。其他平台可将地址末尾替换为对应文件名。
 
 `list.list` 是 Loon 远程规则配置条目集合，按客户端导入方式使用。单个平台 `.list` 可直接作为远程规则订阅，策略选择 `PROXY` 或你的实际代理策略组。

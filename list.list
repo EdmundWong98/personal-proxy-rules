@@ -1,22 +1,18 @@
-#direct
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/ChinaDomian.list,policy=DIRECT,tag=ChinaDomian,desc=中国常用域名
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/ChinaCompanyIp.list,policy=DIRECT,tag=ChinaCompanyIp,desc=中国互联网公司IP
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/WeChat.list,policy=DIRECT,tag=WeChat,desc=微信常用域名和IP
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/cn.list,policy=DIRECT,tag=cn,desc=GEOIP CN
-
-#reject
-
-#proxy
+# Specific proxy rules first; broad direct rules last
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/ChatGPT.list,policy=PROXY,tag=ChatGPT
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Claude.list,policy=PROXY,tag=Claude
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Copilot.list,policy=PROXY,tag=Copilot
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Gemini.list,policy=PROXY,tag=Gemini
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/YouTube.list,policy=PROXY,tag=YouTube
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitter.list,policy=PROXY,tag=Twitter
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Telegram.list,policy=PROXY,tag=Telegram
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitch.list,policy=PROXY,tag=Twitch
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Netflix.list,policy=PROXY,tag=Netflix
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/HBO.list,policy=PROXY,tag=HBO
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Instagram.list,policy=PROXY,tag=Instagram
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitter.list,policy=PROXY,tag=Twitter
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Telegram.list,policy=PROXY,tag=Telegram
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Facebook.list,policy=PROXY,tag=Facebook
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Google.list,policy=PROXY,tag=Google
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/ChatGPT.list,policy=PROXY,tag=ChatGPT
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Copilot.list,policy=PROXY,tag=Copilot
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Gemini.list,policy=PROXY,tag=Gemini
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Claude.list,policy=PROXY,tag=Claude
-https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitch.list,policy=PROXY,tag=Twitch
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/WeChat.list,policy=DIRECT,tag=WeChat,desc=微信常用域名和IP
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/ChinaDomian.list,policy=DIRECT,tag=ChinaDomian,desc=中国常用域名
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/ChinaCompanyIp.list,policy=DIRECT,tag=ChinaCompanyIp,desc=中国互联网公司IP
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/cn.list,policy=DIRECT,tag=cn,desc=GEOIP CN

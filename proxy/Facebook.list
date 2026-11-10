@@ -1,12 +1,15 @@
 # NAME: Facebook
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:34:29
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-10
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/Facebook/Facebook.list
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/facebook
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/meta
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/threads
 # DOMAIN-KEYWORD: 2
-# DOMAIN-SUFFIX: 544
+# DOMAIN-SUFFIX: 556
 # IP-ASN: 1
 # IP-CIDR: 23
-# TOTAL: 570
+# TOTAL: 582
 DOMAIN-SUFFIX,aboutfacebook.com
 DOMAIN-SUFFIX,accessfacebookfromschool.com
 DOMAIN-SUFFIX,accountkit.com
@@ -577,3 +580,15 @@ IP-CIDR,54.162.243.80/32,no-resolve
 IP-CIDR,54.173.34.141/32,no-resolve
 IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,54.93.124.31/32,no-resolve
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbwat.ch
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,threads.com
+DOMAIN-SUFFIX,threads.net

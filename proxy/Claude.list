@@ -1,4 +1,38 @@
-DOMAIN-SUFFIX, anthropic.com
-DOMAIN-SUFFIX, claude.ai
-IP-CIDR, 160.79.104.0/23, no-resolve
-IP-CIDR6, 2607:6bc0::/48, no-resolve
+# NAME: Claude
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-10
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/anthropic
+# SOURCE: https://code.claude.com/docs/en/network-config
+# SOURCE: https://platform.claude.com/docs/en/api/ip-addresses
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/Claude/Claude.list
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 18
+# IP-CIDR: 2
+# IP-CIDR6: 1
+# TOTAL: 26
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+IP-CIDR,160.79.104.0/23,no-resolve
+IP-CIDR6,2607:6bc0::/48,no-resolve
+DOMAIN-SUFFIX,ant.dev
+DOMAIN-SUFFIX,anthropic.team
+DOMAIN-SUFFIX,antspace.dev
+DOMAIN-SUFFIX,chatbotclaude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.dev
+DOMAIN-SUFFIX,claude.new
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudeacademy.com
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudepages.dev
+DOMAIN-SUFFIX,claudestudio.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,o1158394.ingest.us.sentry.io
+IP-CIDR,153.61.224.0/22,no-resolve
+DOMAIN,cdn.usefathom.com
+DOMAIN,browser-intake-us5-datadoghq.com

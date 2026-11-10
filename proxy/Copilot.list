@@ -1,5 +1,38 @@
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
-DOMAIN, copilot.microsoft.com
-DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
+# NAME: Copilot
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-10
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/github-copilot
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/2b7ae3222f79e58e323a6b1c30c6618821068963/data/bing
+# SOURCE: https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Loon/Copilot/Copilot.list
+# DOMAIN: 22
+# DOMAIN-SUFFIX: 6
+# TOTAL: 28
+DOMAIN,api.githubcopilot.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
+DOMAIN,copilotprodattachments.blob.core.windows.net
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN-SUFFIX,copilot-stg.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN,github.com
+DOMAIN,api.github.com
+DOMAIN,github.githubassets.com
+DOMAIN,avatars.githubusercontent.com
+DOMAIN,collector.github.com
+DOMAIN,default.exp-tas.com
+DOMAIN,origin-tracker.githubusercontent.com
+DOMAIN,copilot-reports.github.com
+DOMAIN,location.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net

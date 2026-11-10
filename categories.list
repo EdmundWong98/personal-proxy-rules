@@ -1,3 +1,4 @@
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasAI.list,policy=PROXY,tag=OverseasAI,desc=海外 AI
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasStreaming.list,policy=PROXY,tag=OverseasStreaming,desc=海外流媒体
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasSocial.list,policy=PROXY,tag=OverseasSocial,desc=海外社交软件
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/China.list,policy=DIRECT,tag=CN,desc=CN地区整合

@@ -7,11 +7,11 @@
 # SOURCE: https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Facebook.list
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 5
-# DOMAIN-SUFFIX: 602
+# DOMAIN-SUFFIX: 585
 # IP-ASN: 6
-# IP-CIDR: 38
+# IP-CIDR: 37
 # IP-CIDR6: 5
-# TOTAL: 658
+# TOTAL: 640
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
@@ -412,7 +412,6 @@ DOMAIN-SUFFIX,fbinfer.com
 DOMAIN-SUFFIX,fbinnovation.com
 DOMAIN-SUFFIX,fblitho.com
 DOMAIN-SUFFIX,fbmarketing.com
-DOMAIN-SUFFIX,fbmessenger.com
 DOMAIN-SUFFIX,fbredex.com
 DOMAIN-SUFFIX,fbreg.com
 DOMAIN-SUFFIX,fbrell.com
@@ -554,19 +553,15 @@ DOMAIN-SUFFIX,liverail.com
 DOMAIN-SUFFIX,liverail.tv
 DOMAIN-SUFFIX,lnstagram-help.com
 DOMAIN-SUFFIX,login-account.net
-DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,makeitopen.com
 DOMAIN-SUFFIX,markzuckerberg.com
 DOMAIN-SUFFIX,mcrouter.net
 DOMAIN-SUFFIX,mcrouter.org
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,messengerdevelopers.com
 DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,midentsolutions.com
 DOMAIN-SUFFIX,mobilefacebook.com
 DOMAIN-SUFFIX,moneywithfacebook.com
 DOMAIN-SUFFIX,myfbfans.com
-DOMAIN-SUFFIX,nbabot.net
 DOMAIN-SUFFIX,newsfeed.com
 DOMAIN-SUFFIX,nextstop.com
 DOMAIN-SUFFIX,ocul.us
@@ -614,19 +609,7 @@ DOMAIN-SUFFIX,thefind.com
 DOMAIN-SUFFIX,theinstagramhack.com
 DOMAIN-SUFFIX,toplayerserver.com
 DOMAIN-SUFFIX,viewpointsfromfacebook.com
-DOMAIN-SUFFIX,wa.me
 DOMAIN-SUFFIX,web-instagram.net
-DOMAIN-SUFFIX,whatsapp-plus.info
-DOMAIN-SUFFIX,whatsapp-plus.me
-DOMAIN-SUFFIX,whatsapp-plus.net
-DOMAIN-SUFFIX,whatsapp.biz
-DOMAIN-SUFFIX,whatsapp.cc
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.info
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,whatsapp.org
-DOMAIN-SUFFIX,whatsapp.tv
-DOMAIN-SUFFIX,whatsappbrand.com
 DOMAIN-SUFFIX,whyfacebook.com
 DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusecases.com
@@ -651,7 +634,6 @@ IP-CIDR,108.168.255.227/32,no-resolve
 IP-CIDR,108.177.8.0/21,no-resolve
 IP-CIDR,119.235.224.0/24,no-resolve
 IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,157.240.0.0/17,no-resolve
 IP-CIDR,169.45.248.118/32,no-resolve

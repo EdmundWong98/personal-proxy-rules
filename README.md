@@ -23,12 +23,17 @@ EdmundWong98 的个人 Loon / LoonLite 代理规则仓库。
 | --- | --- | --- |
 | 海外流媒体 | YouTube、Twitch、Netflix、HBO / Max | [OverseasStreaming.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasStreaming.list) |
 | 海外 AI | ChatGPT / Sora、Claude、GitHub / Microsoft Copilot、Gemini / Google AI，以及已有 Grok、Meta AI 域名 | [OverseasAI.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasAI.list) |
+| 海外通讯软件 | WhatsApp、LINE、Messenger、Signal、Discord、Viber | [OverseasMessaging.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasMessaging.list) |
 | 海外社交软件 | Facebook、Instagram / Threads、Twitter / X、Telegram | [OverseasSocial.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/OverseasSocial.list) |
 | CN 地区直连 | 国内常用域名、微信匹配规则、CN GeoIP | [China.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/direct/China.list) |
 
 集合基于仓库现有平台列表合并，逐条去重。Twitter 中的 `grok.com`，以及 Facebook 中的 `llama.com`、`meta.ai`、`metaaiusercontent.com`、`metaaivm.com`、`muse.ai` 归入 AI 集合。
 
-分类导入条目见 [categories.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/categories.list)。海外三类可分别绑定到流媒体、AI、社交策略组，CN 集合绑定 `DIRECT`。采用 AI、流媒体、社交、CN 的顺序，Google 等综合代理规则按需插在 CN 之前。社交集合继承 Facebook 的宽泛域名和 ASN 规则，规则顺序会影响重叠请求的分类。
+2026-11-16 新增六个平台的通讯规则。WhatsApp、Messenger 的专用域名从社交集合移入通讯集合，Telegram 继续归入社交集合。通讯域名参考 V2Fly 当前分类，LINE 的 IP 规则参考 blackmatrix7 Loon 分类，各平台文件头记录来源版本。LINE 集合覆盖聊天相关域名与 IP，购物、游戏、电视等独立域名由各自业务分类维护。
+
+分类导入条目见 [categories.list](https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/categories.list)。海外各类可分别绑定到流媒体、AI、通讯、社交策略组，CN 集合绑定 `DIRECT`。采用 AI、流媒体、通讯、社交、CN 的顺序，Google 等综合代理规则按需插在 CN 之前。
+
+通讯集合需排在社交集合及 Facebook 单平台规则之前，使 WhatsApp、Messenger 的域名优先命中。社交集合继承 Facebook 的共享 IP 和 ASN 规则，仅可见 IP 的 Meta 请求仍可能命中社交兜底。通话的 UDP 转发依赖节点与客户端支持。
 
 CN 集合提取 `ChinaDomian.list`、`WeChat.list` 中的域名、关键词和 User-Agent 规则，去重后以 `GEOIP,CN` 覆盖国内 IP。IP 归属依赖客户端 GeoIP 数据库。国内云厂商的海内外混合 IP 清单、旧测试 IP 清单及源列表中的固定 IP/ASN 条目由各自独立列表维护。国内域名或微信请求可以解析至境外服务，CN 集合会按域名或应用规则直连这些请求。
 

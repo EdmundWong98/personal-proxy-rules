@@ -1,0 +1,19 @@
+# NAME: WhatsApp
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-16
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/93d681debd7abdf1c08c3b3891ca1d7da657ea23/data/whatsapp
+# SOURCE: https://github.com/EdmundWong98/personal-proxy-rules/blob/4ed5e65/proxy/Facebook.list
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,whatsapp-plus.info
+DOMAIN-SUFFIX,whatsapp-plus.me
+DOMAIN-SUFFIX,whatsapp-plus.net
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,whatsapp.biz

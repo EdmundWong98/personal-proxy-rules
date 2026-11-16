@@ -1,0 +1,14 @@
+# NAME: Signal
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-16
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/93d681debd7abdf1c08c3b3891ca1d7da657ea23/data/signal
+# DOMAIN-SUFFIX: 8
+# TOTAL: 8
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.tube
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signalusers.org
+DOMAIN-SUFFIX,whispersystems.org

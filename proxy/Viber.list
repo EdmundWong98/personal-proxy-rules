@@ -1,0 +1,12 @@
+# NAME: Viber
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-16
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/93d681debd7abdf1c08c3b3891ca1d7da657ea23/data/viber
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
+DOMAIN-SUFFIX,viber.com
+DOMAIN-SUFFIX,viber.co
+DOMAIN-SUFFIX,viber.me
+DOMAIN-SUFFIX,s-bid.rmp.rakuten.com
+DOMAIN-SUFFIX,vbcdn.com
+DOMAIN-SUFFIX,vbcdn.net

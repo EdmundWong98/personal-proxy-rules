@@ -1,0 +1,12 @@
+# NAME: Messenger
+# MAINTAINER: EdmundWong98
+# REVIEWED: 2026-11-16
+# SOURCE: https://github.com/v2fly/domain-list-community/blob/93d681debd7abdf1c08c3b3891ca1d7da657ea23/data/messenger
+# SOURCE: https://github.com/EdmundWong98/personal-proxy-rules/blob/4ed5e65/proxy/Facebook.list
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+DOMAIN-SUFFIX,fbmessenger.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,nbabot.net
+DOMAIN-SUFFIX,messengerdevelopers.com

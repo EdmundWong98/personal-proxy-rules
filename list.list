@@ -7,6 +7,12 @@ https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Y
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitch.list,policy=PROXY,tag=Twitch
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Netflix.list,policy=PROXY,tag=Netflix
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/HBO.list,policy=PROXY,tag=HBO
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/WhatsApp.list,policy=PROXY,tag=WhatsApp
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Line.list,policy=PROXY,tag=Line
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Messenger.list,policy=PROXY,tag=Messenger
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Signal.list,policy=PROXY,tag=Signal
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Discord.list,policy=PROXY,tag=Discord
+https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Viber.list,policy=PROXY,tag=Viber
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Instagram.list,policy=PROXY,tag=Instagram
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Twitter.list,policy=PROXY,tag=Twitter
 https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/proxy/Telegram.list,policy=PROXY,tag=Telegram

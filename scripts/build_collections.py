@@ -4,9 +4,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_ROOT = 'https://raw.githubusercontent.com/EdmundWong98/personal-proxy-rules/main/'
+MESSAGING_PLATFORMS = ['WhatsApp', 'Line', 'Messenger', 'Signal', 'Discord', 'Viber']
 COLLECTIONS = [
     ('OverseasAI', '海外 AI', ['ChatGPT', 'Claude', 'Copilot', 'Gemini']),
     ('OverseasStreaming', '海外流媒体', ['YouTube', 'Twitch', 'Netflix', 'HBO']),
+    ('OverseasMessaging', '海外通讯软件', MESSAGING_PLATFORMS),
     ('OverseasSocial', '海外社交软件', ['Instagram', 'Twitter', 'Telegram', 'Facebook']),
 ]
 SOCIAL_AI_RULES = {
@@ -58,6 +60,11 @@ def main():
             raise ValueError('Missing AI rules in {}: {}'.format(platform, sorted(missing)))
         extra_ai.extend(rule for rule in sources[platform] if rule in selected)
     ai_rules = set(extra_ai)
+    messaging_rules = {
+        rule
+        for platform in MESSAGING_PLATFORMS
+        for rule in sources[platform]
+    }
     outputs = {}
     for name, title, members in COLLECTIONS:
         entries = [rule for platform in members for rule in sources[platform]]
@@ -66,7 +73,7 @@ def main():
             entries.extend(extra_ai)
             provenance.extend(SOCIAL_AI_RULES)
         if name == 'OverseasSocial':
-            entries = [rule for rule in entries if rule not in ai_rules]
+            entries = [rule for rule in entries if rule not in ai_rules and rule not in messaging_rules]
         source_paths = ['proxy/' + member + '.list' for member in provenance]
         outputs[ROOT / 'proxy' / (name + '.list')] = format_collection(title, entries, source_paths)
     cn_members = ['ChinaDomian', 'WeChat', 'cn']
